@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "outDir": "./dist/",
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "removeComments": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "es5",
+    "strict": true,
+    "sourceMap": true,
+    "noEmit": false,
+    "jsx": "preserve",
+    "paths": {
+      "@/*": [
+        "src/*",
+      ],
+      "$root/*": [
+        "./*"
+      ]
+    }
+  },
+  "include": [
+    "package.json",
+    "src/"
+  ]
+}
